@@ -14,9 +14,11 @@
         "pear/log": "~1.12"
     },
     "autoload": {
+        "files": [
+          "ActiveRecord.php"
+        ]
         "psr-4": {
-            "ActiveRecord": "ActiveRecord",
-            "ActiveRecord\\": "lib"
+            "ActiveRecord\\": "lib/"
         }
     }
 }
